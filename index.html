@@ -48,7 +48,7 @@
       <div class="content">
         <h1>Freshly Baked, Just for You!</h1>
         <p>Delicious pastries made daily</p>
-        <button>Order Now</button>
+        <button type="button" data-action="open-cart">Order Now</button>
       </div>
     </div>
 
@@ -57,7 +57,7 @@
       <div class="content">
         <h1>Sweet Treats Await</h1>
         <p>Enjoy our special recipes</p>
-        <button>Order Now</button>
+        <button type="button" data-action="open-cart">Order Now</button>
       </div>
     </div>
 
@@ -66,7 +66,7 @@
       <div class="content">
         <h1>Perfect for Every Moment</h1>
         <p>Fresh & tasty every day</p>
-        <button>Order Now</button>
+        <button type="button" data-action="open-cart">Order Now</button>
       </div>
     </div>
 
@@ -117,6 +117,55 @@
     </div>
 </div>
   
+</section>
+
+<section class="specials-section">
+  <div class="section-header">
+    <span>Featured collection</span>
+    <h2>Fresh picks from our kitchen</h2>
+  </div>
+  <div class="specials-container" id="featuredProducts"></div>
+</section>
+
+<section class="testimonials-section">
+  <div class="section-header">
+    <span>Customer stories</span>
+    <h2>What our clients love</h2>
+  </div>
+  <div class="testimonials-grid" id="testimonialsContainer"></div>
+</section>
+
+<section class="faq-section">
+  <div class="section-header">
+    <span>Need to know</span>
+    <h2>Frequently asked questions</h2>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-card">
+      <h3>Do you deliver locally?</h3>
+      <p>Yes. We deliver across Eldoret city and nearby neighborhoods. Choose delivery at checkout.</p>
+    </div>
+    <div class="faq-card">
+      <h3>Can I order a custom cake?</h3>
+      <p>Absolutely. Reach out through the contact form and we will help design a cake for your event.</p>
+    </div>
+    <div class="faq-card">
+      <h3>How do I track my order?</h3>
+      <p>After placing your order, we will contact you on the details provided to confirm timing and delivery.</p>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section">
+  <div class="newsletter-card">
+    <h2>Stay sweet with our bakery news</h2>
+    <p>Subscribe for fresh menu drops, special offers, and seasonal treats.</p>
+    <form id="newsletterForm" class="newsletter-form">
+      <input type="email" name="newsletterEmail" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <div id="newsletterResult" class="form-result"></div>
+  </div>
 </section>
 
 <!--This is the menu page-->
